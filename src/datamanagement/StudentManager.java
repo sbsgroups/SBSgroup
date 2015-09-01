@@ -62,10 +62,7 @@ IStudent is;
     StudentUnitRecordList ur = StudentUnitRecordManager.instance().getRecordsByUnit(uc);
         for (IStudentUnitRecord S : ur) {
             
-            
-            
-            
-            
+                
             
             
             
