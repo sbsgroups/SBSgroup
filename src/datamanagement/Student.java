@@ -1,6 +1,7 @@
 package datamanagement;
-
-public class Student implements IStudent {
+//student class implementing Istudent interface
+public class Student implements IStudent
+{
     private Integer id; private String fn;
             private String ln;
 private StudentUnitRecordList su;
@@ -15,7 +16,9 @@ public Student( Integer id, String fn, String ln, StudentUnitRecordList su ) { t
 } public String getFirstName() { 
 return fn; }
 
-    public void setFirstName( String firstName ) { 
+    public void setFirstName
+        (
+                String firstName ) { 
 this.fn = firstName; }
 
 public String getLastName() { 
