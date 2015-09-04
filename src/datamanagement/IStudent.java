@@ -16,3 +16,4 @@ public interface IStudent {
     public StudentUnitRecordList getUnitRecords();
 
 }
+//need to add functionality to add the student
