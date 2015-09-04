@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 import javax.swing.*;
 // test comment new thing
 public class Main 
-{
+{//admin login
     Connection con;
     Statement st;
     ResultSet rs;
