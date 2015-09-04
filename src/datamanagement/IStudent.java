@@ -12,7 +12,8 @@ public interface IStudent {
 
     public void addUnitRecord( IStudentUnitRecord record );
     public IStudentUnitRecord getUnitRecord( String unitCode );
-
+ 
     public StudentUnitRecordList getUnitRecords();
 
 }
+//need to add functionality to add the student
